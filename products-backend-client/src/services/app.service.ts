@@ -2,6 +2,7 @@ import { Inject, Injectable, OnModuleInit } from '@nestjs/common';
 import { ClientGrpc } from '@nestjs/microservices';
 import { UserService } from '../interfaces/user.interface';
 import { Product } from '../interfaces/product.interface';
+import { firstValueFrom } from 'rxjs';
 
 @Injectable()
 export class ProductsService implements OnModuleInit {
@@ -25,7 +26,7 @@ export class ProductsService implements OnModuleInit {
   }
 
   async getProductsByUser(id: string): Promise<Array<Product>> {
-    const user = await this.userService.getUser({ id }).toPromise();
+    const user = await firstValueFrom(this.userService.getUser({ id }));
 
     return this.getProductsByCPF(user.cpf);
   }
