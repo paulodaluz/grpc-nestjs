@@ -23,7 +23,7 @@ Para startar o projeto você pode digitar o comando `npm run start:dev` ou `yarn
 
 Após isso ele irá startar o projeto na porta 3000(no caso do server) e 3001(no caso do client) no seu localhost.
 
-***Para saber como usar as aplicações, consulte a [Wiki](https://github.com/paulodaluz/grpc-nestjs/wiki) desse repositório.***
+***Para saber como usar as aplicações, consulte a [Wiki](https://github.com/paulodaluz/grpc-nestjs/wiki/Como-usar%3F) desse repositório.***
 
 ## 📖 Docs
 Para mais informações sobre o gRPC, alem das documentações oficiais das Tecnologias, tem os links abaixo:
