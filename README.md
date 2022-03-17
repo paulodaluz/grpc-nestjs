@@ -1,6 +1,9 @@
 # grpc-nestjs
 Two Simple Micro Services in NestJS Communicating Over GRPC.
 
+## 🚧 Objetivo do Projeto
+Este repositório foi desenvolvido com o objetivo de aprender, botar em prática e também compartilhar conceitos/conhecimento envolvendo o gRPC e NestJS.
+
 ## 🧪 Tecnologias
 As principais tecnologias utilizadas foram:
 - [NodeJS](https://nodejs.org/en/)
